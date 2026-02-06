@@ -10,9 +10,9 @@ export default function RootLayout({
       <header className="bg-gray-800 text-white p-4">
         <h1>My Blog</h1>
         <nav>
-            <Link href="/">Home</Link>
-            <Link href="/blog">Blog</Link>
-            <Link href="/payment">Payment</Link>
+          <Link href="/">Home</Link>
+          <Link href="/blog">Blog</Link>
+          <Link href="/payment">Payment</Link>
         </nav>
       </header>
       {children}
